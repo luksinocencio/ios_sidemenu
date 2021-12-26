@@ -78,7 +78,14 @@ class ContainerController: UIViewController {
             print("Show Notifications")
         case .Settings:
             print("Show Settings")
+            presentingController(controller: SettingsController(username: "Lucas"))
         }
+    }
+    
+    func presentingController(controller: UIViewController) {
+        let controller = UINavigationController(rootViewController: controller)
+        controller.modalPresentationStyle = .fullScreen
+        present(controller, animated: true, completion: nil)
     }
     
     func animateStatusbar() {
@@ -87,6 +94,8 @@ class ContainerController: UIViewController {
         }, completion: nil)
     }
 }
+
+// MARK: - Extensions
 
 extension ContainerController: HomeControllerDelegate {
     func handleMenuToggle(forMenuOption menuOption: MenuOption?) {

@@ -17,6 +17,7 @@
 		E8600541277816A900EDCF1D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8600540277816A900EDCF1D /* Protocols.swift */; };
 		E860054327781BC100EDCF1D /* MenuOptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E860054227781BC100EDCF1D /* MenuOptionsCell.swift */; };
 		E8600545277820BA00EDCF1D /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8600544277820BA00EDCF1D /* MenuOption.swift */; };
+		E86005472778983600EDCF1D /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86005462778983600EDCF1D /* SettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E8600540277816A900EDCF1D /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		E860054227781BC100EDCF1D /* MenuOptionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionsCell.swift; sourceTree = "<group>"; };
 		E8600544277820BA00EDCF1D /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		E86005462778983600EDCF1D /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E860053A27780F8300EDCF1D /* ContainerController.swift */,
 				E860053C27780F8C00EDCF1D /* HomeController.swift */,
 				E860053E27780F9600EDCF1D /* MenuController.swift */,
+				E86005462778983600EDCF1D /* SettingsController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E86005472778983600EDCF1D /* SettingsController.swift in Sources */,
 				E860052227780EA200EDCF1D /* AppDelegate.swift in Sources */,
 				E860052427780EA200EDCF1D /* SceneDelegate.swift in Sources */,
 				E860054327781BC100EDCF1D /* MenuOptionsCell.swift in Sources */,
